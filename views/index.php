@@ -17,6 +17,7 @@
         <?php
             include 'components/navbar.php';
         ?>
+        <h1>scdo</h1>
 
         <div class="w-full flex justify-between items-center bg-gray-200 p-4">
             <!-- Contenuto a sinistra -->
