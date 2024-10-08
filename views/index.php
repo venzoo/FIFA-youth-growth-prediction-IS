@@ -8,9 +8,6 @@
 
         <script src="https://cdn.tailwindcss.com"></script>
 
-        <!-- Link a un font da Google Fonts (opzionale) -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     </head>
     <body>
@@ -66,7 +63,7 @@
             </div>
         </div>
 
-        <script src="static/js/app.js"></script>
         <script src="static/js/vue.js"></script>
+        <script src="static/js/app.js"></script>
     </body>
 </html>
