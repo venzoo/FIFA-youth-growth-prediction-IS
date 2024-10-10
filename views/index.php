@@ -9,14 +9,12 @@
         <script src="https://cdn.tailwindcss.com"></script>
 
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
-        <link rel="stylesheet" href="static/css/div-center.css">
     </head>
     <body>
 
         <div id="app">
             <?php
-            include 'components/navbar.php';
+            include '../views/components/navbar.php';
             ?>
 
             <div class="w-full flex justify-between items-center bg-lime-900 p-4">
@@ -24,7 +22,7 @@
                 <div class="flex-1 text-left">
                     <p class="text-gray-700">
                         <?php
-                        include 'components/search.php'
+                        include '../views/components/search.php'
                         ?>
                     </p>
                 </div>
@@ -38,7 +36,7 @@
                 <div class="flex-1 text-right">
                     <p class="text-gray-700">
                         <?php
-                        include 'components/dropdown.php'
+                        include '../views/components/dropdown.php'
                         ?>
 
                     </p>
@@ -50,7 +48,7 @@
                 <!-- Contenuto a sinistra -->
                 <div class="flex-1 text-left">
                     <p class="text-gray-700">
-                        <img src="static/img/cristiano-ronaldo.png" width="287px">
+                        <img src="/fifa-youth-growth-prediction/views/static/img/cristiano-ronaldo.png" width="287px">
                     </p>
                 </div>
 
@@ -254,7 +252,7 @@
                     </div>
 
                     <div class="ml-6">
-                        <img src="static/img/graphic-player.png" alt="Grafico" class="w-64 h-auto rounded-lg shadow-md" />
+                        <img src="/fifa-youth-growth-prediction/views/static/img/graphic-player.png" alt="Grafico" class="w-64 h-auto rounded-lg shadow-md" />
                     </div>
                 </div>
             </div>
@@ -262,7 +260,7 @@
 
         </div>
 
-        <script src="static/js/vue.js"></script>
-        <script src="static/js/app.js"></script>
+        <script src="/fifa-youth-growth-prediction/views/static/js/vue.js"></script>
+        <script src="/fifa-youth-growth-prediction/views/static/js/app.js"></script>
     </body>
 </html>
